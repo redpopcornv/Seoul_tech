@@ -12,9 +12,9 @@ int main(void)
     while (1) 
     {
 		PORTD=0x00;
-		_delay_ms(500);
+		_delay_ms(300);
 		PORTD=0xff;
-		_delay_ms(500);
+		_delay_ms(300);
     }
 }
 
