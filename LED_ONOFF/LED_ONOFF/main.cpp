@@ -15,6 +15,19 @@ int main(void)
 		_delay_ms(300);
 		PORTD=0xff;
 		_delay_ms(300);
+<<<<<<< HEAD
+=======
+		for(int i=0;i<7;i++)
+		{
+			PORTD= ~(1<<i);
+			_delay_ms(300);
+		}
+		for(int i=7;i>=0;i--)
+		{
+			PORTD = ~(1<<i);
+			_delay_ms(300);
+		}
+>>>>>>> LED_shift
     }
 }
 
